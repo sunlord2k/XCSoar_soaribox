@@ -41,6 +41,7 @@
 #include "Device/Driver/KRT2.hpp"
 #include "util/Macros.hpp"
 #include "util/StringAPI.hxx"
+#include "Device/Driver/Soaribox.hpp"
 
 #include <cassert>
 
@@ -83,6 +84,7 @@ static const struct DeviceRegister *const driver_list[] = {
   &xctracer_driver,
   &thermalexpress_driver,
   &acd_driver,
+  &soaribox_driver,
   nullptr
 };
 
